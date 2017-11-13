@@ -21,20 +21,21 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 			width: 100%;
-			height: 400px;
-			background-position:center;
+			height: 30vw;
+			background-position:50% 20%;
+			
 		}
 		.carousel_bg_img1{
     		background-image: url('img/Slide.jpg');
   		}
 		.carousel_bg_img2{
-    		background-image: url('img/Slide.jpg');
+    		background-image: url('img/shop2.png');
   		}
 		.carousel_bg_img3{
     		background-image: url('img/Slide.jpg');
   		}
 		.carousel_bg_img4{
-    		background-image: url('img/Slide.jpg');
+    		background-image: url('img/shop2.png');
   		}
 		.card_size{
 			width: 100%;
@@ -43,7 +44,7 @@
 		.card_mrgin_auto{
 			margin-left: auto;
 			margin-right: auto;
-			margin-top: 10px;
+			margin-top: 30px;
 		}
 		.main_mrgin_b{
 			margin-bottom: 20px;
@@ -105,14 +106,15 @@
 				<div class="col-md-4">
 					<div class="logo"></div>
 				</div>
-				<div class="col-md-2"></div>
-				<div class="col-md-6">
+				<div class="col-md-1"></div>
+				<div class="col-md-7">
 					<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
 						 <div class="btn-group mr-2" role="group" aria-label="First group">
-						<button type="button" class="btn btn-secondary">Home</button>
-						<button type="button" class="btn btn-secondary">Women</button>
-						<button type="button" class="btn btn-secondary">Acossoriess</button>
-						<button type="button" class="btn btn-secondary">Style</button>
+				<a href="#slide" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">News</a>
+				<a href="#shirt" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Women</a>
+				<a href="#aco" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Acossorierr</a>
+				<a href="#style" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Style</a>
+				<a href="#footer" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">About us</a>
 						 </div>
 					</div>
 				</div>
@@ -120,7 +122,7 @@
 			</div>
 	</div>
 						<!--上面為按鈕程式碼-->
-	<div class="container">
+	<div id="slide" class="container">
 		<div class="row">
 			<div class="col-12">
 				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -167,7 +169,7 @@
 		<div class="col-md-12">
 			<div class="row">
 				<div class="col-md-3">
-					<div class="card card_mrgin_auto">
+					<div id="shirt" class="card card_mrgin_auto">
 					  <img class="card-img-top" src="img/293054.jpg" alt="Card image cap">
 					 	<div class="card-body">
 					 	  <h4 class="card-title">Coat</h4>
@@ -227,11 +229,11 @@
 		<div class="col-md-12">
 			<div class="row">
 				<div class="col-md-3">
-					<div class="card card_mrgin_auto">
+					<div id="style" class="card card_mrgin_auto">
 					  <img class="card-img-top" src="img/IMG_3870.jpg" alt="Card image cap">
 					 	<div class="card-body">
-							<h4 class="card-title">Card title</h4>
-							<p class="card-text">Some .</p>
+					 	  <h4 class="card-title">高貴風</h4>
+					 	  <p class="card-text">&nbsp;</p>
 					 	</div>
 					  	<ul class="list-group list-group-flush">
 					  	  <li class="list-group-item">$199<br>
@@ -244,8 +246,8 @@
 					<div class="card card_mrgin_auto">
 					  <img class="card-img-top" src="img/IMG_3879.jpg" alt="Card image cap">
 					 	<div class="card-body">
-							<h4 class="card-title">Card title</h4>
-							<p class="card-text">Some .</p>
+					 	  <h4 class="card-title">甜美風 </h4>
+					 	  <p class="card-text">&nbsp;</p>
 					 	</div>
 					  	<ul class="list-group list-group-flush">
 					  	  <li class="list-group-item">$399<br>
@@ -258,8 +260,8 @@
 					<div class="card card_mrgin_auto">
 					  <img class="card-img-top" src="img/IMG_3885.jpg" alt="Card image cap">
 					 	<div class="card-body">
-							<h4 class="card-title">Card title</h4>
-							<p class="card-text">Some .</p>
+					 	  <h4 class="card-title">騷包風</h4>
+					 	  <p class="card-text">&nbsp;</p>
 					 	</div>
 					  	<ul class="list-group list-group-flush">
 					  	  <li class="list-group-item">$99<br>
@@ -272,8 +274,8 @@
 					<div class="card card_mrgin_auto">
 					  <img class="card-img-top" src="img/IMG_3876.jpg" alt="Card image cap">
 					 	<div class="card-body">
-							<h4 class="card-title">Card title</h4>
-							<p class="card-text">Some .</p>
+					 	  <h4 class="card-title">城市風</h4>
+					 	  <p class="card-text">&nbsp;</p>
 					 	</div>
 					  	<ul class="list-group list-group-flush">
 					  	  <li class="list-group-item">$299</li>
@@ -286,14 +288,13 @@
 	</div>
 	<!--第二欄資訊-->
 	<div class="container main_mrgin_b">
-		<div class="col-md-12">
+		<div id="aco" class="col-md-12">
 			<div class="row">
 				<div class="col-md-3">
 					<div class="card card_mrgin_auto">
-					  <img class="card-img-top" src="img/IMG_3901.jpg" alt="Card image cap">
+					  <img class="card-img-top" src="img/2.png" alt="Card image cap">
 					 	<div class="card-body">
-							<h4 class="card-title">Card title</h4>
-							<p class="card-text">Some .</p>
+					 	  <h4 class="card-title">圍巾</h4>
 					 	</div>
 					  	<ul class="list-group list-group-flush">
 					  	  <li class="list-group-item">$19</li>
@@ -304,11 +305,11 @@
 				
 				<div class="col-md-3">
 					<div class="card card_mrgin_auto">
-					  <img class="card-img-top" src="img/IMG_3891.jpg" alt="Card image cap">
+					  <img class="card-img-top" src="img/1.png" alt="Card image cap">
 				 	  <div class="card-body">
-							<h4 class="card-title">Card title</h4>
-							<p class="card-text">Some .</p>
-					 	</div>
+				 	    <h4 class="card-title">毛巾</h4>
+				 	    <p class="card-text"></p>
+				 	  </div>
 					  	<ul class="list-group list-group-flush">
 					  	  <li class="list-group-item">$89<br>
 				  	      </li>
@@ -318,11 +319,11 @@
 				</div>
 				<div class="col-md-3">
 					<div class="card card_mrgin_auto">
-					  <img class="card-img-top" src="img/IMG_3893.jpg" alt="Card image cap">
+					  <img class="card-img-top" src="img/2.png" alt="Card image cap">
 				 	  <div class="card-body">
-							<h4 class="card-title">Card title</h4>
-							<p class="card-text">Some .</p>
-					 	</div>
+				 	    <h4 class="card-title">抹布</h4>
+				 	    <p class="card-text">&nbsp;</p>
+				 	  </div>
 					  	<ul class="list-group list-group-flush">
 					  	  <li class="list-group-item">$29<br>
 				  	      </li>
@@ -332,10 +333,10 @@
 				</div>
 				<div class="col-md-3">
 					<div class="card card_mrgin_auto">
-					  <img class="card-img-top" src="img/293054.jpg" alt="Card image cap">
+					  <img class="card-img-top" src="img/2.png" alt="Card image cap">
 					 	<div class="card-body">
-							<h4 class="card-title">Card title</h4>
-							<p class="card-text">Some .</p>
+					 	  <h4 class="card-title">毛帽</h4>
+					 	  <p class="card-text">&nbsp;</p>
 					 	</div>
 					  	<ul class="list-group list-group-flush">
 					  	  <li class="list-group-item">$39<br>
@@ -348,7 +349,7 @@
 		</div>
 	</div>
 	<!--第三欄資訊-->
-	<div class="container main_mrgin_b  mb-3 footer_top">
+	<div id="footer" class="container main_mrgin_b  mb-3 footer_top">
 		<div class="row">
 			<div class="col-12">
 				<div class="row">
